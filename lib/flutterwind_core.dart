@@ -1,3 +1,3 @@
-library flutterwind_core;
+library;
 
 export 'flutterwind.dart';

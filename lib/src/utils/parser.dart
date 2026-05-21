@@ -577,7 +577,7 @@ class FlutterWindStyle {
     // When no ring is active, it paints transparent with 0 radius (no-op).
     // This prevents TextField from being remounted and losing focus.
     if (current is Container) {
-      final container = current as Container;
+      final container = current;
       final existingDecoration = container.decoration as BoxDecoration? ?? const BoxDecoration();
       
       final borderRadius = existingDecoration.borderRadius as BorderRadius?;
